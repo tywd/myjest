@@ -1,0 +1,26 @@
+{
+  "name": "myjest-vue",
+  "version": "1.0.0",
+  "description": "vue3的单测",
+  "main": "index.js",
+  "repository": "git@github.com:tywd/myjest.git",
+  "author": "shichuyu <1042048096@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "vite": "^2.9.5"
+  }
+}
